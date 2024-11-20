@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Principale</servlet-name>
+  	<display-name>Principale</display-name>
+  	<description></description>
+  	<servlet-class>tn.essat.controller.Principale</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PreNote</servlet-name>
+  	<display-name>PreNote</display-name>
+  	<description></description>
+  	<servlet-class>tn.essat.controller.PreNote</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PreAjout</servlet-name>
+  	<display-name>PreAjout</display-name>
+  	<description></description>
+  	<servlet-class>tn.essat.controller.PreAjout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PostAjout</servlet-name>
+  	<display-name>PostAjout</display-name>
+  	<description></description>
+  	<servlet-class>tn.essat.controller.PostAjout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Verif</servlet-name>
+  	<display-name>Verif</display-name>
+  	<description></description>
+  	<servlet-class>tn.essat.controller.Verif</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Dec</servlet-name>
+  	<display-name>Dec</display-name>
+  	<description></description>
+  	<servlet-class>tn.essat.controller.Dec</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddEtudiant</servlet-name>
+  	<display-name>AddEtudiant</display-name>
+  	<description></description>
+  	<servlet-class>tn.essat.controller.AddEtudiant</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Delete</servlet-name>
+  	<display-name>Delete</display-name>
+  	<description></description>
+  	<servlet-class>tn.essat.controller.Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Principale</servlet-name>
+  	<url-pattern>/Principale</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PreNote</servlet-name>
+  	<url-pattern>/PreNote</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PreAjout</servlet-name>
+  	<url-pattern>/PreAjout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PostAjout</servlet-name>
+  	<url-pattern>/PostAjout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Verif</servlet-name>
+  	<url-pattern>/Verif</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Dec</servlet-name>
+  	<url-pattern>/Dec</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddEtudiant</servlet-name>
+  	<url-pattern>/AddEtudiant</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Delete</servlet-name>
+  	<url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+</web-app>
